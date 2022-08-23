@@ -1,0 +1,198 @@
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  height: 70px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.trybewarts-header-logo {
+  display: flex;
+  margin-left: 15px;
+}
+
+#trybewarts-header-title {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.trybewarts-login {
+  display: flex;
+  height: 40px;
+  align-self: center;
+  margin-right: 15px;
+}
+
+.button {
+  width: 150px;
+  background-color: rgb(78, 44, 131);
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+input {
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 15px;
+}
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  margin-left: 120px;
+  margin-top: 50px;
+  flex-direction: column;
+  display: flex;
+  width: 675px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.input-form {
+  width: 40%;
+  margin: 10px 2px;
+  height: 30px;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+#house {
+  width: 35%;
+  margin: 10px 2px;
+  height: 40px;
+  text-align: center;
+  flex-wrap: wrap;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+#h1-form {
+  text-align: center;
+  margin: 25px;
+}
+
+hr {
+  width: 85%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.checkbox-order {
+  display: flex;
+  font-weight: 700;
+}
+
+#label-family {
+  font-size: 17px;
+}
+
+.input-form-family input {
+  width: 10px;
+}
+
+.checkbox-size {
+  width: 45%;
+  margin-left: 18%;
+}
+
+.checkbox-space {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.input-form-learn input {
+  width: auto;
+  margin-right: 5px;
+}
+
+.input-form-learn {
+  text-align: left;
+  margin-right: 20px;
+  font-weight: 700;
+}
+
+.space-content {
+  margin-left: 20px;
+}
+
+#label-rate {
+  font-size: 17px;
+  display: flex;
+}
+
+.label-rate input {
+  width: 15px;
+  margin-left: 10px;
+  margin-right: 1px;
+}
+
+.label-rate {
+  display: flex;
+  align-items: center;
+}
+
+#textarea {
+  width: 86%;
+  height: 100px;
+}
+
+.textarea {
+  font-size: 17px;
+}
+
+#organize-label-infos {
+  display: flex;
+  margin: 0;
+  font-weight: 700;
+}
+
+#agreement {
+  display: flex;
+  align-self: center;
+  margin: 0;
+  width: 20px;
+}
+
+.negrito {
+  font-weight: 700;
+}
+
+#submit-btn {
+  width: 560px;
+  height: 35px;
+  background-color: rgb(78, 44, 131);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 17px;
+}
+
+#direitos {
+  display: flex;
+  margin-top: 3%;
+  height: 107px;
+  background-color: rgb(50, 174, 151);
+}
+
+#direitos p {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: 700;
+}
